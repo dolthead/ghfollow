@@ -1,0 +1,9 @@
+<p>
+  follower-list works!
+</p>
+<ul>
+  <li *ngFor="let follower of followers">
+    <img [src]="follower.avatar_url" height="32">
+    {{ follower.login }}
+  </li>
+</ul>
